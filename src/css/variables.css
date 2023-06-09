@@ -1,0 +1,14 @@
+:root{    
+    --Light-red: 0, 100%, 67%;
+    --Orangey-yellow: 39, 100%, 56%;
+    --Green-teal: 166, 100%, 37%;
+    --Cobalt-blue: 234, 85%, 45%;
+    --background-color-primary: hsl(252, 100%, 67%);
+    --background-color-secondary: hsl(241, 81%, 54%);
+    --circle-color-primary: hsla(256, 72%, 46%, 1);
+    --circle-color-secondary: hsla(241, 72%, 46%, 0);
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+    }

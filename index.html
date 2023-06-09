@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./src/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./src/css/variables.css">
+  <link rel="stylesheet" type="text/css" href="./src/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="./src/css/responsive.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <section class="main">
+    <div class="container">
+      <div class="result">
+        <div class="resultDetails">
+          <h2 class="colorGray" id="title-result">Your Result</h2>
+          <div class="circle">
+            <p id="score">76</p>
+            <p class="colorGray" id="of-score">of 100</p>
+          </div>          
+          <h3 id="great">Great</h3>
+          <p class="colorGray" id="score-desc">You scored higher than 65% of the people who have taken these tests.</p>  
+        </div>      
+      </div>
+      <div class="summary">
+        <div class="summaryDetails">
+          <h2>Summary</h2>          
+          <ul>
+            <li>
+              <span><img src="./src/assets/icon-reaction.svg" alt="rea-img"> Reaction</span>
+              <span>80 <p id="of100">/ 100</p></span>
+            </li>
+
+            <li>
+              <span><img src="./src/assets/icon-memory.svg" alt="mem-img"> Memory</span>
+              <span>92 <p id="of100">/ 100</p></span>
+            </li>
+
+            <li>
+              <span><img src="./src/assets/icon-verbal.svg" alt="ver-img"> Verbal</span>
+              <span>61 <p id="of100">/ 100</p></span>
+            </li>
+
+            <li>
+              <span><img src="./src/assets/icon-visual.svg" alt="vis-img"> Visual</span>
+              <span>72 <p id="of100">/ 100</p></span>
+            </li>
+          </ul>
+          <button>Continue</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.linkedin.com/in/braynner-marques-ribeiro-de-oliveira-88142b256/"
+      target="_blank">Braynner Oliveira</a>.
+  </div>
+</body>
+
+</html>
